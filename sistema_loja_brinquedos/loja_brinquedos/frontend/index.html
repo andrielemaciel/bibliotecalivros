@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Loja de Brinquedos</title>
+  <title>Brinquedoteca — um mundo de fofura</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <main>
     <header class="cabecalho">
       <div class="icone">🧸</div>
-      <div><p class="subtitulo">GERENCIAMENTO DE ESTOQUE</p><h1>Loja de Brinquedos</h1>
-      <p class="descricao">Cadastre, consulte, edite e exclua os brinquedos da loja.</p></div>
+      <div><p class="subtitulo">✿ UM MUNDO DE ALEGRIA ✿</p><h1>Brinquedoteca</h1>
+      <p class="descricao">Cuide com carinho dos brinquedos da nossa lojinha.</p></div>
     </header>
     <section class="painel">
       <div class="titulo-linha"><h2>Brinquedos cadastrados</h2><button type="button" id="btnListar">Atualizar lista</button></div>
@@ -31,7 +31,7 @@
         </select>
         <label for="faixaEtaria">Faixa etária</label>
         <select id="faixaEtaria" required>
-          <option value="">Selecione a faixa etária</option><option>0 a 2 anos</option><option>3 a 5 anos</option><option>6 a 8 anos</option><option>9 a 12 anos</option><option>13 anos ou mais</option>
+          <option value="">Selecione a faixa etária</option><option>0 a 2 anos</option><option>3 a 5 anos</option><option>6 a 8 anos</option><option>9 a 12 anos</option><option>13 anos ou mais</option><option>Livre (todas as idades)</option>
         </select>
         <label for="preco">Preço (R$)</label><input type="number" id="preco" min="0" step="0.01" placeholder="0,00" required>
         <label for="imagem">Imagem do brinquedo</label><input type="file" id="imagem" accept="image/jpeg,image/png,image/webp,image/gif" aria-describedby="dicaImagem">
@@ -40,7 +40,7 @@
         <div class="botoes-form"><button type="submit" id="btnSalvar">Cadastrar brinquedo</button><button type="button" id="btnCancelar" class="secundario" hidden>Cancelar edição</button></div>
       </form>
     </section>
-    <footer>Projeto escolar • Sistema de gerenciamento de brinquedos</footer>
+    <footer>Feito com carinho e um pouquinho de magia ✨</footer>
   </main>
   <script src="script.js"></script>
 </body>
